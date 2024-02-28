@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: 'Arial';
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    width: 300px;
+    padding: 0 0 30px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 5px 6px 11px 0 rgba(20 18 20 / .75);
+}
+
+.img {
+    display: block;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    object-fit: cover;
+}
+
+.what {
+    width: 80%;
+    margin: 20px auto;
+    filter: drop-shadow(10px 10px 20px green);
+}
+
+.container {
+    width: 90%;
+    height: 110px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cont__what {
+    height: 130px;
+}
+
+.title {
+    color: #CB422C;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.copy {
+    text-align: center;
+    color: #531626;
+}
+
+.link {
+    display: block;
+    background: #CB422C;
+    color: #531626;
+    padding: 13px 0;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 8px;
+    box-shadow: 5px 6px 11px 0 rgba(20 18 20 / .75);
+}
+/* .box {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    background: steelblue; */
+    /* 
+        h-offset: desplazamiento horizonatl de la sombra -> obligatorio
+        v-offset: desplazamiento vertical -> obligatorio
+        blur: nivel de difuminado
+        spread: nivel de esparcimiento de la sombra
+        color
+    */
+    /* box-shadow: 0 0 10px 5px rgb(66, 142, 203);
+} */
